@@ -1,0 +1,26 @@
+# ─── PERSONAL DATA — NEVER COMMIT ────────────────────────────────
+# Pulled agent workspaces hold real health data, training logs,
+# conversation memory and Telegram IDs. This is the main safety line
+# in this repo. Do not remove these entries.
+workspaces/
+**/memory/
+PROFILE.md
+PLAN.md
+LOG.md
+METRICS.md
+!agent/PROFILE.md
+!agent/PLAN.md
+!agent/LOG.md
+!agent/METRICS.md
+
+# ─── SECRETS ─────────────────────────────────────────────────────
+openclaw.json
+*.token
+*.key
+*.pem
+.env
+.env.*
+
+# ─── STATE / NOISE ───────────────────────────────────────────────
+openclaw-workspace-state.json
+.DS_Store
